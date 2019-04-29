@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #82a9ce;
+  font-family: 'Roboto Slab', serif;
+}
+
+body .app {
+  max-width: 500px;
+  background-color: white;
+  margin: 20px auto;
+}
+
+body .contactForm {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 500px;
+  border-bottom: 2px solid #82a9ce;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .contactForm input,
+body .contactForm button {
+  margin: 10px 0;
+}
+
+body .contactForm input {
+  border-radius: 3px;
+  border: 1px solid #82a9ce;
+  min-width: 250px;
+  padding: 5px 0px;
+}
+
+body .contactForm button {
+  border-radius: 10px;
+  width: 250px;
+  background-color: #6be0ce;
+  padding: 10px 0px;
+  border: none;
+}
+
+body .contactsList {
+  padding-bottom: 20px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+body .contactsList .contactItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .contactsList .contactItem:nth-child(2) {
+  background: #a1ccf4;
+}
+/*# sourceMappingURL=style.css.map */
